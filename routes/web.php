@@ -34,3 +34,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+// Static pages for MyPetroleum
+Route::view('/about', 'about')->name('about');
+Route::view('/panduan-58a', 'panduan-58a')->name('panduan.58a');
+Route::view('/manual', 'manual')->name('manual');
+Route::view('/contact', 'contact')->name('contact');

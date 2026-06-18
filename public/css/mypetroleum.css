@@ -1,0 +1,8 @@
+/* Minimal styles for MyPetroleum pages */
+.mp-header{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#fff;border-bottom:1px solid #eee}
+.mp-left img{height:44px;margin-right:10px}
+.mp-nav a{margin-left:8px;padding:8px 12px;border-radius:6px;color:#222;text-decoration:none;border:1px solid transparent}
+.mp-nav a.primary{background:#f53003;color:#fff;border-color:#f53003}
+.mp-container{max-width:980px;margin:32px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,0.05)}
+h1{font-size:22px;margin-bottom:8px}
+p{color:#444;line-height:1.6}
